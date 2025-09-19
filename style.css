@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Header container */
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Logo */
+.images{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    cursor: pointer;
+}
+
+/* Navigation menu */
+.option{
+    padding: 30px;
+}
+
+.option button {
+    position: relative;
+    margin: 0 15px;
+    padding: 10px 0;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1a1a1a;
+}
+
+/* Hover underline effect */
+
+.option button::after {
+    content: "";   /* creates an empty element */
+    position: absolute;   /* positioned inside the button */
+    left: 0;    /* start from the left edge */
+    bottom: -5px;    /* place slightly below text */
+    width: 100%;   /* make it as wide as the button text */
+    height: 3px;  /* thickness of the underline */
+    background-color: red;  /* red underline */
+    transform: scaleX(0);   /* shrinks line horizontally to 0 */
+    transform-origin: right;  /* shrinking starts from the right */
+    transition: transform 0.1s ease;  /* smooth animation */
+}
+
+.option button:hover::after {
+    transform: scaleX(1);   /* full width */
+    transform-origin: left;  /* animation expands from left to right */
+}
+
+
+.but, .pro{
+    margin-right: 10px;
+    height: 30px;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+/* Search bar */
+.searchbar{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+}
+
+
+/* Profile, Wishlist, Bag */
+.Profile{
+    padding: 32px;
+    padding-right: 120px;
+    
+}
+
+.Profile button {
+    /* border: none; */
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 0;
+    border-color: darkgreen;
+    border-radius:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 3px;
+    
+}
+
+.middle{
+    background-color: rgb(246,246,241);
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.card{
+    background-color: 	rgb(17,130,59);
+    color: white;
+}
+
+.amitabh{
+    width: 80%;
+    height: 180px;
+    padding: 15px;
+    padding-left: 170px;
+}
