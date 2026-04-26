@@ -1,1 +1,2 @@
-It is the first react project of mein , i have applied the filter of item based on the price and underline effect when hover to the navigation.
+Myntra Clone is an e-commerce web application built using React that replicates the core features of the Myntra website. It includes product listing, add-to-cart functionality, and responsive design, demonstrating component-based architecture, state management, and modern frontend development skills.
+
